@@ -2,8 +2,24 @@ $color: red!default;
 $color2: blue!default;
 $color3: green!default;
 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+img {
+    width: 100%;
+    max-width: 1200px;
+}
+
 body {
-    background-color: $color2;
-    margin: 50px auto;
+    padding: 0;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
