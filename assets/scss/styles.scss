@@ -1,0 +1,9 @@
+$color: red!default;
+$color2: blue!default;
+$color3: green!default;
+
+body {
+    background-color: $color2;
+    margin: 50px auto;
+    display: flex;
+}
