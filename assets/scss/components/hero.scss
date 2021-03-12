@@ -1,0 +1,30 @@
+.hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .content-banner{
+        width: 100%;
+        height: auto;
+
+        @include mobile{
+            padding: 0;
+            width: 100%;
+            max-width: 375px;
+            min-width: 320px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content-banner__item {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+}
