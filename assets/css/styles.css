@@ -6,12 +6,11 @@
   color: black;
 }
 
-img {
-  width: 100%;
-  max-width: 1200px;
-}
-
 body {
+  background-image: url(../../images/backgrouds/bckg-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,5 +25,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    padding: 0;
+    width: 100%;
+    max-width: 375px;
+    min-width: 320px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
