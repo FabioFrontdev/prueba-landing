@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.counterDown {
+  width: 100%;
+  height: auto;
+  background-image: url(../../../images/backgrouds/bckg-1.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 414px) {
+  .counterDown {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.counterDown .container-mes, .counterDown .container-dias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.counterDown .container-mes .meses-title, .counterDown .container-dias .meses-title {
+  color: #FFF;
+  font-family: "barlow_condensedsemibold";
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.counterDown .container-mes .meses, .counterDown .container-mes .dias, .counterDown .container-dias .meses, .counterDown .container-dias .dias {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.counterDown .container-mes .meses .meses-1, .counterDown .container-mes .meses .meses-2, .counterDown .container-mes .meses .dias-1, .counterDown .container-mes .meses .dias-2, .counterDown .container-mes .dias .meses-1, .counterDown .container-mes .dias .meses-2, .counterDown .container-mes .dias .dias-1, .counterDown .container-mes .dias .dias-2, .counterDown .container-dias .meses .meses-1, .counterDown .container-dias .meses .meses-2, .counterDown .container-dias .meses .dias-1, .counterDown .container-dias .meses .dias-2, .counterDown .container-dias .dias .meses-1, .counterDown .container-dias .dias .meses-2, .counterDown .container-dias .dias .dias-1, .counterDown .container-dias .dias .dias-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #333333;
+  width: 90px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.counterDown .container-mes .meses .meses-1 .cero, .counterDown .container-mes .meses .meses-1 .uno, .counterDown .container-mes .meses .meses-2 .cero, .counterDown .container-mes .meses .meses-2 .uno, .counterDown .container-mes .meses .dias-1 .cero, .counterDown .container-mes .meses .dias-1 .uno, .counterDown .container-mes .meses .dias-2 .cero, .counterDown .container-mes .meses .dias-2 .uno, .counterDown .container-mes .dias .meses-1 .cero, .counterDown .container-mes .dias .meses-1 .uno, .counterDown .container-mes .dias .meses-2 .cero, .counterDown .container-mes .dias .meses-2 .uno, .counterDown .container-mes .dias .dias-1 .cero, .counterDown .container-mes .dias .dias-1 .uno, .counterDown .container-mes .dias .dias-2 .cero, .counterDown .container-mes .dias .dias-2 .uno, .counterDown .container-dias .meses .meses-1 .cero, .counterDown .container-dias .meses .meses-1 .uno, .counterDown .container-dias .meses .meses-2 .cero, .counterDown .container-dias .meses .meses-2 .uno, .counterDown .container-dias .meses .dias-1 .cero, .counterDown .container-dias .meses .dias-1 .uno, .counterDown .container-dias .meses .dias-2 .cero, .counterDown .container-dias .meses .dias-2 .uno, .counterDown .container-dias .dias .meses-1 .cero, .counterDown .container-dias .dias .meses-1 .uno, .counterDown .container-dias .dias .meses-2 .cero, .counterDown .container-dias .dias .meses-2 .uno, .counterDown .container-dias .dias .dias-1 .cero, .counterDown .container-dias .dias .dias-1 .uno, .counterDown .container-dias .dias .dias-2 .cero, .counterDown .container-dias .dias .dias-2 .uno {
+  font-family: "barlow_condensedsemibold";
+  color: #E4C084;
+  font-size: 80px;
+}
+
+.counterDown .puntos {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 414px) {
+  .counterDown .puntos {
+    display: none;
+  }
+}
+
+.counterDown .puntos .puntos__text {
+  font-family: "barlow_condensedsemibold";
+  font-size: 100px;
+  color: #333333;
+  position: relative;
+  top: -30px;
+}
+
+@media screen and (max-width: 414px) {
+  .counterDown .puntos .puntos__text {
+    top: 0;
+  }
+}
+/*# sourceMappingURL=counter.css.map */

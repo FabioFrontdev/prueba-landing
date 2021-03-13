@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.description {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+  padding: 0 5px;
+}
+
+.description .description-title {
+  width: 90%;
+  height: auto;
+}
+
+@media screen and (max-width: 414px) {
+  .description .description-title {
+    width: 100%;
+  }
+}
+
+.description .container-description {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 414px) {
+  .description .container-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.description .container-description .description-left {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  background-image: url(../../../images/backgrouds/bckg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding: 30px 30px;
+}
+
+@media screen and (max-width: 414px) {
+  .description .container-description .description-left {
+    width: 100%;
+    max-width: 426px;
+    min-width: 320px;
+    padding: 5px;
+  }
+}
+
+.description .container-description .description-left .description-left__subtitle {
+  font-family: "momcakebold";
+  font-size: 70px;
+  color: white;
+}
+
+@media screen and (max-width: 414px) {
+  .description .container-description .description-left .description-left__subtitle {
+    font-size: 60px;
+  }
+}
+
+.description .container-description .description-right {
+  width: 50%;
+  max-width: 350px;
+}
+
+@media screen and (max-width: 414px) {
+  .description .container-description .description-right {
+    width: 100%;
+    max-width: 426px;
+    min-width: 320px;
+    padding: 5px;
+    margin-top: 20px;
+  }
+}
+
+.description .container-description .description-right .description-right__paragraph {
+  font-family: "barlow_condensedlight";
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 414px) {
+  .description .container-description .description-right .description-right__paragraph {
+    text-align: center;
+  }
+}
+
+.description .container-description .description-right .description-right__paragraph .description-right-paragraph__capital {
+  font-family: "momcakebold";
+  color: #fff;
+  font-size: 25px;
+}
+/*# sourceMappingURL=description.css.map */

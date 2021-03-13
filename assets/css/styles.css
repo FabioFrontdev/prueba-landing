@@ -18,6 +18,20 @@
   background-color: black;
 }
 
+@media screen and (max-width: 414px) {
+  .header {
+    padding: 0;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+}
+
 .header .header-content__logo {
   width: 100%;
   display: -webkit-box;
@@ -35,9 +49,64 @@
           justify-content: flex-end;
 }
 
+@media screen and (max-width: 414px) {
+  .header .header-content__logo {
+    width: 100%;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .header .header-content__logo .header-content-logo__item {
   width: 100%;
   max-width: 300px;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .hero {
@@ -68,19 +137,794 @@
   height: auto;
 }
 
+.hero .btn-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 30px 0 0;
+  position: relative;
+  top: -90px;
+}
+
+@media screen and (max-width: 414px) {
+  .hero .btn-content {
+    padding: 0;
+    width: 100%;
+    max-width: 426px;
+    min-width: 320px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 0 0 0;
+    top: 0;
+    margin-top: 15px;
+  }
+}
+
+.hero .btn-content .btn {
+  text-decoration: none;
+  color: white;
+  background-color: #03A5B1;
+  padding: 10px 25px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-family: "barlow_condensedsemibold";
+  font-size: 33px;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.description {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+  padding: 0 5px;
+}
+
+.description .description-title {
+  width: 90%;
+  height: auto;
+}
+
+@media screen and (max-width: 414px) {
+  .description .description-title {
+    width: 100%;
+  }
+}
+
+.description .container-description {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 414px) {
+  .description .container-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.description .container-description .description-left {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  background-image: url(../../../images/backgrouds/bckg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding: 30px 30px;
+}
+
+@media screen and (max-width: 414px) {
+  .description .container-description .description-left {
+    width: 100%;
+    max-width: 426px;
+    min-width: 320px;
+    padding: 5px;
+  }
+}
+
+.description .container-description .description-left .description-left__subtitle {
+  font-family: "momcakebold";
+  font-size: 70px;
+  color: white;
+}
+
+@media screen and (max-width: 414px) {
+  .description .container-description .description-left .description-left__subtitle {
+    font-size: 60px;
+  }
+}
+
+.description .container-description .description-right {
+  width: 50%;
+  max-width: 350px;
+}
+
+@media screen and (max-width: 414px) {
+  .description .container-description .description-right {
+    width: 100%;
+    max-width: 426px;
+    min-width: 320px;
+    padding: 5px;
+    margin-top: 20px;
+  }
+}
+
+.description .container-description .description-right .description-right__paragraph {
+  font-family: "barlow_condensedlight";
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 414px) {
+  .description .container-description .description-right .description-right__paragraph {
+    text-align: center;
+  }
+}
+
+.description .container-description .description-right .description-right__paragraph .description-right-paragraph__capital {
+  font-family: "momcakebold";
+  color: #fff;
+  font-size: 25px;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.speakers {
+  background-image: url(../../../images/backgrouds/bckg-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 35px;
+  padding: 20px 0;
+}
+
+.speakers .description-title {
+  width: 70%;
+  height: auto;
+}
+
+@media screen and (max-width: 414px) {
+  .speakers .description-title {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.speakers .speakers-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px 30px;
+}
+
+@media screen and (max-width: 414px) {
+  .speakers .speakers-content {
+    width: 100%;
+    margin: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.speakers .speakers-content .speakers-content__item {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 180px;
+}
+
+@media screen and (max-width: 414px) {
+  .speakers .speakers-content .speakers-content__item {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
+
+.speakers .btn-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 30px 0 0;
+}
+
+@media screen and (max-width: 414px) {
+  .speakers .btn-content {
+    padding: 0;
+    width: 100%;
+    max-width: 426px;
+    min-width: 320px;
+    padding: 0 0 0 0;
+    margin-top: 15px;
+  }
+}
+
+.speakers .btn-content .btn {
+  text-decoration: none;
+  color: white;
+  background-color: #03A5B1;
+  padding: 10px 25px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-family: "barlow_condensedsemibold";
+  font-size: 33px;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.diary {
+  width: 100%;
+  height: auto;
+  background-image: url(../../../images/backgrouds/bckg-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 45px;
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 414px) {
+  .diary {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.diary .diary-left {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+  background-image: url(../../../images/backgrouds/bckg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding: 30px 30px;
+}
+
+@media screen and (max-width: 414px) {
+  .diary .diary-left {
+    width: 100%;
+    max-width: 426px;
+    min-width: 320px;
+    padding: 5px;
+  }
+}
+
+.diary .diary-left .diary-left__subtitle {
+  font-family: "momcakebold";
+  font-size: 90px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 20px;
+}
+
+@media screen and (max-width: 414px) {
+  .diary .diary-left .diary-left__subtitle {
+    text-align: center;
+  }
+}
+
+.diary .diary-left .diary-left__subtitle .diary-left-subtitle__spam {
+  font-size: 125px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  top: -45px;
+}
+
+.diary .diary-right-content-slider {
+  width: 50%;
+  max-width: 450px;
+}
+
+@media screen and (max-width: 414px) {
+  .diary .diary-right-content-slider {
+    width: 100%;
+    max-width: 426px;
+    min-width: 320px;
+    padding: 5px;
+    margin-top: 20px;
+  }
+}
+
+.diary .diary-right-content-slider .diary-header-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.diary .diary-right-content-slider .diary-header-slider .diary-header-slider__title {
+  color: #E4C084;
+  font-size: 35px;
+  font-family: "barlow_condensedsemibold";
+}
+
+.diary .diary-right-content-slider .container-info-diary {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.diary .diary-right-content-slider .container-info-diary .diary-time-slider {
+  max-width: 400px;
+  width: 100%;
+  font-family: "barlow_condensedlight";
+  color: #fff;
+}
+
+.diary .diary-right-content-slider .container-info-diary .diary-time-slider .diary-time-slider__item {
+  margin: 23px 10px;
+}
+
+.diary .diary-right-content-slider .container-info-diary .diary-info-slider {
+  width: 100%;
+  font-family: "barlow_condensedlight";
+  color: #fff;
+}
+
+.diary .diary-right-content-slider .container-info-diary .diary-info-slider .diary-info-slider__item {
+  margin: 10px;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.counterDown {
+  width: 100%;
+  height: auto;
+  background-image: url(../../../images/backgrouds/bckg-1.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 414px) {
+  .counterDown {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.counterDown .container-mes, .counterDown .container-dias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.counterDown .container-mes .meses-title, .counterDown .container-dias .meses-title {
+  color: #FFF;
+  font-family: "barlow_condensedsemibold";
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.counterDown .container-mes .meses, .counterDown .container-mes .dias, .counterDown .container-dias .meses, .counterDown .container-dias .dias {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.counterDown .container-mes .meses .meses-1, .counterDown .container-mes .meses .meses-2, .counterDown .container-mes .meses .dias-1, .counterDown .container-mes .meses .dias-2, .counterDown .container-mes .dias .meses-1, .counterDown .container-mes .dias .meses-2, .counterDown .container-mes .dias .dias-1, .counterDown .container-mes .dias .dias-2, .counterDown .container-dias .meses .meses-1, .counterDown .container-dias .meses .meses-2, .counterDown .container-dias .meses .dias-1, .counterDown .container-dias .meses .dias-2, .counterDown .container-dias .dias .meses-1, .counterDown .container-dias .dias .meses-2, .counterDown .container-dias .dias .dias-1, .counterDown .container-dias .dias .dias-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #333333;
+  width: 90px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.counterDown .container-mes .meses .meses-1 .cero, .counterDown .container-mes .meses .meses-1 .uno, .counterDown .container-mes .meses .meses-2 .cero, .counterDown .container-mes .meses .meses-2 .uno, .counterDown .container-mes .meses .dias-1 .cero, .counterDown .container-mes .meses .dias-1 .uno, .counterDown .container-mes .meses .dias-2 .cero, .counterDown .container-mes .meses .dias-2 .uno, .counterDown .container-mes .dias .meses-1 .cero, .counterDown .container-mes .dias .meses-1 .uno, .counterDown .container-mes .dias .meses-2 .cero, .counterDown .container-mes .dias .meses-2 .uno, .counterDown .container-mes .dias .dias-1 .cero, .counterDown .container-mes .dias .dias-1 .uno, .counterDown .container-mes .dias .dias-2 .cero, .counterDown .container-mes .dias .dias-2 .uno, .counterDown .container-dias .meses .meses-1 .cero, .counterDown .container-dias .meses .meses-1 .uno, .counterDown .container-dias .meses .meses-2 .cero, .counterDown .container-dias .meses .meses-2 .uno, .counterDown .container-dias .meses .dias-1 .cero, .counterDown .container-dias .meses .dias-1 .uno, .counterDown .container-dias .meses .dias-2 .cero, .counterDown .container-dias .meses .dias-2 .uno, .counterDown .container-dias .dias .meses-1 .cero, .counterDown .container-dias .dias .meses-1 .uno, .counterDown .container-dias .dias .meses-2 .cero, .counterDown .container-dias .dias .meses-2 .uno, .counterDown .container-dias .dias .dias-1 .cero, .counterDown .container-dias .dias .dias-1 .uno, .counterDown .container-dias .dias .dias-2 .cero, .counterDown .container-dias .dias .dias-2 .uno {
+  font-family: "barlow_condensedsemibold";
+  color: #E4C084;
+  font-size: 80px;
+}
+
+.counterDown .puntos {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 414px) {
+  .counterDown .puntos {
+    display: none;
+  }
+}
+
+.counterDown .puntos .puntos__text {
+  font-family: "barlow_condensedsemibold";
+  font-size: 100px;
+  color: #333333;
+  position: relative;
+  top: -30px;
+}
+
+@media screen and (max-width: 414px) {
+  .counterDown .puntos .puntos__text {
+    top: 0;
+  }
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: black;
 }
 
 body {
-  background-image: url(../../images/backgrouds/bckg-1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100px;
+  background: #403228;
+  background: radial-gradient(circle, #403228 0%, black 40%, black 80%);
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,8 +945,6 @@ body {
   body {
     padding: 0;
     width: 100%;
-    max-width: 375px;
-    min-width: 320px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

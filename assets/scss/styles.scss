@@ -1,21 +1,22 @@
 @import "./components/header.scss";
 @import "./components/hero.scss";
+@import "./components/description.scss";
+@import "./components/speakers.scss";
+@import "./components/diary.scss";
+@import "./components/counter.scss";
 @import "./lib/breakpoints.scss";
+@import "./lib/vars.scss";
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: black;
 }
 
-
-
 body {
-    background-image: url(../../images/backgrouds/bckg-1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100px;
+    background: rgb(64,50,40);
+    background: radial-gradient(circle, rgb(64,50,40) 0%,  rgb(0,0,0) 40%, rgb(0,0,0) 80%);
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -25,8 +26,6 @@ body {
     @include mobile{
         padding: 0;
         width: 100%;
-        max-width: 375px;
-        min-width: 320px;
     }
 
     @include tablet{

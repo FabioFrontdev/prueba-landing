@@ -2,21 +2,54 @@
 @import "../lib/fonts.scss";
 @import "../lib/breakpoints.scss";
 
-.hero {
+.speakers {
+    background-image: url(../../../images/backgrouds/bckg-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 35px;
+    padding: 20px 0;
 
-    .content-banner{
-        width: 100%;
+
+    .description-title {
+        width: 70%;
         height: auto;
 
-        .content-banner__item {
+        @include mobile {
             width: 100%;
-            height: auto;
+            margin-bottom: 10px;
+        }
+    }
+
+    .speakers-content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 25px 30px;
+
+        @include mobile {
+            width: 100%;
+            margin: 5px;
+            flex-direction: column;
+        }
+
+        .speakers-content__item {
+            object-fit: cover;
+            width: 180px;
+
+            @include mobile {
+                width: 90%;
+                margin-bottom: 10px;
+            }
+
         }
     }
 
@@ -24,21 +57,16 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-end;
+        align-items: center;
+        justify-content: center;
         padding: 0 30px 0 0;
-        position: relative;
-        top: -90px;
 
         @include mobile{
             padding: 0;
             width: 100%;
             max-width: 426px;
             min-width: 320px;
-            align-items: center;
-            justify-content: center;
             padding: 0 0 0 0;
-            top: 0;
             margin-top: 15px;
         }
         
@@ -53,5 +81,4 @@
             font-size: 33px;
         }
     }
-
 }

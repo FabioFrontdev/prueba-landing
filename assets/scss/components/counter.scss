@@ -1,0 +1,86 @@
+@import "../lib/vars.scss";
+@import "../lib/fonts.scss";
+@import "../lib/breakpoints.scss";
+
+.counterDown {
+    width: 100%;
+    height: auto;
+    background-image: url(../../../images/backgrouds/bckg-1.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    padding: 0 5px;
+
+    @include mobile {
+        flex-direction: column;
+    }
+
+    .container-mes, .container-dias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .meses-title {
+            color: #FFF;
+            font-family: $text-btn-font;
+            font-size: 35px;
+            margin: 10px 0;
+        }
+
+
+        .meses, .dias {
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+    
+            .meses-1, .meses-2, .dias-1, .dias-2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: #333333;
+                width: 90px;
+                height: 120px;
+                border-radius: 8px;
+    
+                .cero, .uno {
+                    font-family: $text-btn-font;
+                    color: #E4C084;
+                    font-size: 80px;
+                }
+            }
+        }
+    }
+
+    .puntos {
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile {
+            display: none;
+        }
+
+        .puntos__text {
+            font-family: $text-btn-font;
+            font-size: 100px;
+            color: #333333;
+            position: relative;
+            top: -30px;
+            @include mobile {
+                top: 0;
+            }
+        }
+    }
+    
+}

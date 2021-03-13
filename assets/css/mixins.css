@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../../fonts/momcake-bold-webfont.woff") format("woff"), url("../../fonts/momcake-bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../../fonts/barlowcondensed-light-webfont.woff") format("woff"), url("../../fonts/barlowcondensed-light-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../../fonts/barlowcondensed-semibold-webfont.woff") format("woff"), url("../../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=mixins.css.map */

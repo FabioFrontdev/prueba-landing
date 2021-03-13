@@ -1,0 +1,100 @@
+@import "../lib/vars.scss";
+@import "../lib/fonts.scss";
+@import "../lib/breakpoints.scss";
+
+.description {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    padding: 0 5px;
+
+    .description-title {
+        width: 90%;
+        height: auto;
+
+        @include mobile {
+            width: 100%;
+        }
+    }
+
+    .container-description {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 25px;
+
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .description-left {
+            width: 50%;
+            max-width: 400px;
+            height: auto;
+            background-image: url(../../../images/backgrouds/bckg-2.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            padding: 30px 30px;
+
+            @include mobile {
+                width: 100%;
+                max-width: 426px;
+                min-width: 320px;
+                padding: 5px;
+            }
+
+            .description-left__subtitle {
+                font-family: $Titles-sections-font;
+                font-size: 70px;
+                color: white;
+
+                @include mobile {
+                    font-size: 60px;
+                }
+            }
+        }
+
+        .description-right {
+            width: 50%;
+            max-width: 350px;
+
+            @include mobile {
+                width: 100%;
+                max-width: 426px;
+                min-width: 320px;
+                padding: 5px;
+                margin-top: 20px;
+            }
+
+            .description-right__paragraph {
+                font-family: $paragraph-font;
+                color: #fff;
+                font-size: 16px;
+                margin-bottom: 15px;
+
+                @include mobile {
+                    text-align: center;
+                }
+    
+
+                .description-right-paragraph__capital {
+                    font-family: $Titles-sections-font;
+                    color: #fff;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    
+}

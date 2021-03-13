@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.diary {
+  width: 100%;
+  height: auto;
+  background-image: url(../../../images/backgrouds/bckg-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 45px;
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 414px) {
+  .diary {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.diary .diary-left {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+  background-image: url(../../../images/backgrouds/bckg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding: 30px 30px;
+}
+
+@media screen and (max-width: 414px) {
+  .diary .diary-left {
+    width: 100%;
+    max-width: 426px;
+    min-width: 320px;
+    padding: 5px;
+  }
+}
+
+.diary .diary-left .diary-left__subtitle {
+  font-family: "momcakebold";
+  font-size: 90px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 20px;
+}
+
+@media screen and (max-width: 414px) {
+  .diary .diary-left .diary-left__subtitle {
+    text-align: center;
+  }
+}
+
+.diary .diary-left .diary-left__subtitle .diary-left-subtitle__spam {
+  font-size: 125px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  top: -45px;
+}
+
+.diary .diary-right-content-slider {
+  width: 50%;
+  max-width: 450px;
+}
+
+@media screen and (max-width: 414px) {
+  .diary .diary-right-content-slider {
+    width: 100%;
+    max-width: 426px;
+    min-width: 320px;
+    padding: 5px;
+    margin-top: 20px;
+  }
+}
+
+.diary .diary-right-content-slider .diary-header-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.diary .diary-right-content-slider .diary-header-slider .diary-header-slider__title {
+  color: #E4C084;
+  font-size: 35px;
+  font-family: "barlow_condensedsemibold";
+}
+
+.diary .diary-right-content-slider .container-info-diary {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.diary .diary-right-content-slider .container-info-diary .diary-time-slider {
+  max-width: 400px;
+  width: 100%;
+  font-family: "barlow_condensedlight";
+  color: #fff;
+}
+
+.diary .diary-right-content-slider .container-info-diary .diary-time-slider .diary-time-slider__item {
+  margin: 23px 10px;
+}
+
+.diary .diary-right-content-slider .container-info-diary .diary-info-slider {
+  width: 100%;
+  font-family: "barlow_condensedlight";
+  color: #fff;
+}
+
+.diary .diary-right-content-slider .container-info-diary .diary-info-slider .diary-info-slider__item {
+  margin: 10px;
+}
+/*# sourceMappingURL=diary.css.map */

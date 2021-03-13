@@ -1,3 +1,4 @@
+@import "../lib/breakpoints.scss";
 .header {
     display: flex;
     flex-direction: row;
@@ -8,12 +9,27 @@
     padding: 10px 20px 10px 0;
     background-color: black;
 
+    @include mobile{
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding:  0;
+    }
+
     .header-content__logo {
         width: 100%;
         display: flex;
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-end;
+
+        @include mobile{
+            width: 100%;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+        }
 
         .header-content-logo__item{
             width: 100%;
