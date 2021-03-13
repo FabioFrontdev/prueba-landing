@@ -1,0 +1,56 @@
+@import "../lib/vars.scss";
+@import "../lib/fonts.scss";
+@import "../lib/breakpoints.scss";
+
+.footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+    .footer-title {
+        font-family: $Titles-sections-font;
+        color: #30CBEF;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer-social-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        
+
+        .footer-social-container__item {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #30CBEF;
+            text-align: center;
+            font-size: 45px;
+            padding-top: 14px;
+            color: #30CBEF;
+            margin: 10px 20px;
+
+            @include mobile {
+                width: 60px;
+                height: 60px;
+                font-size: 30px;
+                padding-top: 12px;
+                color: #30CBEF;
+                margin: 0px 8px;
+            }
+            
+        }
+
+        .footer-social-container__item:hover{
+            border: 3px solid #686091;
+            color: #fff;
+        }
+    }
+}

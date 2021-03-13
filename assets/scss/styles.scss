@@ -4,6 +4,9 @@
 @import "./components/speakers.scss";
 @import "./components/diary.scss";
 @import "./components/counter.scss";
+@import "./components/makers.scss";
+@import "./components/sponsors.scss";
+@import "./components/footer.scss";
 @import "./lib/breakpoints.scss";
 @import "./lib/vars.scss";
 
@@ -15,6 +18,7 @@
 }
 
 body {
+
     background: rgb(64,50,40);
     background: radial-gradient(circle, rgb(64,50,40) 0%,  rgb(0,0,0) 40%, rgb(0,0,0) 80%);
     padding: 0;
@@ -24,8 +28,9 @@ body {
     justify-content: center;
 
     @include mobile{
-        padding: 0;
         width: 100%;
+        max-width: 375px;
+        min-width: 320px;
     }
 
     @include tablet{

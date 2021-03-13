@@ -156,5 +156,14 @@
   text-transform: uppercase;
   font-family: "barlow_condensedsemibold";
   font-size: 33px;
+  -webkit-transition: background-color 2s ease-in-out;
+  transition: background-color 2s ease-in-out;
+}
+
+.speakers .btn-content .btn:hover {
+  background-color: #686091;
+  color: #fff;
+  -webkit-transition: background-color 2s ease-in-out;
+  transition: background-color 2s ease-in-out;
 }
 /*# sourceMappingURL=speakers.css.map */

@@ -184,6 +184,15 @@
   text-transform: uppercase;
   font-family: "barlow_condensedsemibold";
   font-size: 33px;
+  -webkit-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
+}
+
+.hero .btn-content .btn:hover {
+  background-color: #686091;
+  color: #fff;
+  -webkit-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
 }
 
 @font-face {
@@ -517,6 +526,15 @@
   text-transform: uppercase;
   font-family: "barlow_condensedsemibold";
   font-size: 33px;
+  -webkit-transition: background-color 2s ease-in-out;
+  transition: background-color 2s ease-in-out;
+}
+
+.speakers .btn-content .btn:hover {
+  background-color: #686091;
+  color: #fff;
+  -webkit-transition: background-color 2s ease-in-out;
+  transition: background-color 2s ease-in-out;
 }
 
 @font-face {
@@ -915,6 +933,366 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.makers {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.makers .makers-title {
+  font-family: "momcakebold";
+  color: #30CBEF;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.makers .makers-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 414px) {
+  .makers .makers-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.makers .makers-container .maker-item {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  margin: 15px;
+}
+
+@media screen and (max-width: 414px) {
+  .makers .makers-container .maker-item {
+    width: 200px;
+    margin: 0 0 10px 0;
+  }
+}
+
+@media screen and (min-width: 427px) {
+  .makers .makers-container .maker-item {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .makers .makers-container .maker-item {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .makers .makers-container .maker-item {
+    width: 300px;
+  }
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sponsors {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.sponsors .sponsors-title {
+  font-family: "momcakebold";
+  color: #30CBEF;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.sponsors .sponsors-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 414px) {
+  .sponsors .sponsors-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.sponsors .sponsors-container .sponsors-item {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  margin: 15px;
+}
+
+@media screen and (max-width: 414px) {
+  .sponsors .sponsors-container .sponsors-item {
+    width: 200px;
+    margin: 0 0 10px 0;
+  }
+}
+
+@media screen and (min-width: 427px) {
+  .sponsors .sponsors-container .sponsors-item {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .sponsors .sponsors-container .sponsors-item {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .sponsors .sponsors-container .sponsors-item {
+    width: 300px;
+  }
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.footer .footer-title {
+  font-family: "momcakebold";
+  color: #30CBEF;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.footer .footer-social-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer-social-container .footer-social-container__item {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #30CBEF;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 14px;
+  color: #30CBEF;
+  margin: 10px 20px;
+}
+
+@media screen and (max-width: 414px) {
+  .footer .footer-social-container .footer-social-container__item {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    padding-top: 12px;
+    color: #30CBEF;
+    margin: 0px 8px;
+  }
+}
+
+.footer .footer-social-container .footer-social-container__item:hover {
+  border: 3px solid #686091;
+  color: #fff;
+}
+
+@font-face {
+  font-family: 'momcakebold';
+  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedlight';
+  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'barlow_condensedsemibold';
+  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -943,8 +1321,9 @@ body {
 
 @media screen and (max-width: 414px) {
   body {
-    padding: 0;
     width: 100%;
+    max-width: 375px;
+    min-width: 320px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

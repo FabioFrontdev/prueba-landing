@@ -1,0 +1,59 @@
+@import "../lib/vars.scss";
+@import "../lib/fonts.scss";
+@import "../lib/breakpoints.scss";
+
+.sponsors {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+    .sponsors-title {
+        font-family: $Titles-sections-font;
+        color: #30CBEF;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .sponsors-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        @include mobile {
+            flex-direction: column;
+        }
+
+        .sponsors-item {
+            object-fit: cover;
+            width: 300px;
+            margin: 15px;
+
+
+            @include mobile {
+                width: 200px;
+                margin: 0 0 10px 0;
+
+            }
+        
+            @include tablet{
+                width: 150px;
+                
+            }
+        
+            @include laptop{
+                width: 200px;
+                
+            }
+        
+            @include desktop{
+                width: 300px;
+            }
+           
+        }
+    }
+}

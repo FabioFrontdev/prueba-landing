@@ -79,6 +79,13 @@
             text-transform: uppercase;
             font-family: $text-btn-font;
             font-size: 33px;
+            transition: background-color 2s ease-in-out;
+        }
+
+        .btn:hover{
+            background-color:  #686091;
+            color: #fff;
+            transition: background-color 2s ease-in-out;
         }
     }
 }
