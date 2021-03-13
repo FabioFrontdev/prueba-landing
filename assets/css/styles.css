@@ -67,48 +67,6 @@
   max-width: 300px;
 }
 
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .hero {
   width: 100%;
   height: auto;
@@ -193,48 +151,6 @@
   color: #fff;
   -webkit-transition: background-color 1s ease-in-out;
   transition: background-color 1s ease-in-out;
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .description {
@@ -368,48 +284,6 @@
   font-size: 25px;
 }
 
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .speakers {
   background-image: url(../../../images/backgrouds/bckg-1.png);
   background-size: cover;
@@ -535,48 +409,6 @@
   color: #fff;
   -webkit-transition: background-color 2s ease-in-out;
   transition: background-color 2s ease-in-out;
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .diary {
@@ -734,48 +566,6 @@
   margin: 10px;
 }
 
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .counterDown {
   width: 100%;
   height: auto;
@@ -912,48 +702,6 @@
   }
 }
 
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .makers {
   width: 100%;
   height: auto;
@@ -1036,48 +784,6 @@
   }
 }
 
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .sponsors {
   width: 100%;
   height: auto;
@@ -1158,48 +864,6 @@
   .sponsors .sponsors-container .sponsors-item {
     width: 300px;
   }
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'momcakebold';
-  src: url("../fonts/momcake-bold-webfont.woff2") format("woff2"), url("../fonts/momcake-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedlight';
-  src: url("../fonts/barlowcondensed-light-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'barlow_condensedsemibold';
-  src: url("../fonts/barlowcondensed-semibold-webfont.woff2") format("woff2"), url("../fonts/barlowcondensed-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .footer {
