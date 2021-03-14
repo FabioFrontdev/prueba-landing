@@ -399,7 +399,7 @@
   width: 50%;
   max-width: 400px;
   height: auto;
-  background-image: url(../../images/backgrouds/bckg-2.png);
+  background-image: url(../images/backgrouds/bckg-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -483,7 +483,7 @@
 }
 
 .speakers {
-  background-image: url(../../../images/backgrouds/bckg-1.png);
+  background-image: url(../images/backgrouds/bckg-1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -633,7 +633,7 @@
 .diary {
   width: 100%;
   height: auto;
-  background-image: url(../../../images/backgrouds/bckg-1.png);
+  background-image: url(../images/backgrouds/bckg-1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -667,7 +667,7 @@
   width: 50%;
   max-width: 300px;
   height: auto;
-  background-image: url(../../../images/backgrouds/bckg-2.png);
+  background-image: url(../images/backgrouds/bckg-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -680,6 +680,7 @@
     max-width: 426px;
     min-width: 320px;
     padding: 5px;
+    margin-bottom: 60px;
   }
 }
 
@@ -690,7 +691,7 @@
   margin: 0;
   padding: 0;
   position: relative;
-  top: -8px;
+  top: 20px;
 }
 
 @media screen and (max-width: 431px) {
@@ -953,7 +954,7 @@
 .counterDown {
   width: 100%;
   height: auto;
-  background-image: url(../../images/backgrouds/bckg-1.png);
+  background-image: url(../images/backgrouds/bckg-1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
