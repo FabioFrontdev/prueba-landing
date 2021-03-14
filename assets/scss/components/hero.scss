@@ -3,19 +3,121 @@
 
 .hero {
     width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-    .content-banner{
+    @include mobile{
         width: 100%;
-        height: auto;
+        max-width: 431px;
+        min-width: 320px;
+    }
 
-        .content-banner__item {
+    @include tablet{
+        height: 500px;
+    }
+
+    @include laptop{
+        height: 700px;
+    }
+
+    @include desktop{
+        height: 900px;
+    }
+
+    #container-slider{
+        position: relative;
+        display: block;
+        width: 100%;
+
+        .arrowPrev, .arrowNext{
+            font-size: 30pt;
+            color: #E4C084;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            left: 1px;
+            z-index: 2;
+
+            @include mobile {
+                top: 41%;
+            }
+        
+            @include tablet{
+                top: 38%; 
+            }
+        
+            @include laptop{
+                top: 55%;
+            }
+        
+            @include desktop{
+                top: 72%;
+            }
+        }
+
+        .arrowNext {
+            left: initial;
+            right: 1px;
+        }
+
+        .listslider {
+            display: none;
+            position: absolute;
+            justify-content: space-between;
+            align-items: center;
+            left: 50%;
+            bottom: 5%;
+            list-style: none;
+            z-index: 2;
+            transform: translateX(-50%);
+        }
+        .listslider li {
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+        .listslider li a {
+            background: #CCC;
+            border-radius: 50%;
             width: 100%;
-            height: auto;
+            height: 100%;
+            display: block;
+        }
+
+        #slider {
+            position: relative;
+            display: block;
+            width: 100%;
+            min-height: 500px;
+
+            @include mobile {
+                min-height: 215px;
+            }
+
+            .content-banner {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: block;
+                -webkit-transition: opacity 1s;
+                -moz-transition: opacity 1s;
+                -ms-transition: opacity 1s;
+                -o-transition: opacity 1s;
+                transition: opacity 1s;
+                z-index: -1;
+                opacity: 0;
+
+                .banner-1 {
+                    z-index:0; opacity: 1;
+                }
+
+                .content-banner__item {
+                    width: 100%;
+                    height: auto;
+                }
+            }
         }
     }
 
@@ -27,7 +129,8 @@
         justify-content: flex-end;
         padding: 0 30px 0 0;
         position: relative;
-        top: -90px;
+        top: -10px;
+        z-index: 3;
 
         @include mobile{
             padding: 0;
@@ -40,7 +143,19 @@
             top: 0;
             margin-top: 15px;
         }
-        
+    
+        @include tablet{
+            top: -120px;
+        }
+    
+        @include laptop{
+            top: -1px;
+        }
+    
+        @include desktop{
+            top: 190px;
+        }
+
         .btn {
             text-decoration: none;
             color: white;
@@ -58,6 +173,6 @@
             color: #fff;
             transition: background-color 1s ease-in-out;
         }
+    
     }
-
 }

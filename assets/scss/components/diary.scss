@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 45px;
     padding: 0 5px;
 
@@ -44,7 +44,7 @@
             margin: 0;
             padding: 0;
             position: relative;
-            top: 20px;
+            top: -8px;
 
             @include mobile {
                 text-align: center;
@@ -63,7 +63,7 @@
     }
 
     .diary-right-content-slider {
-        width: 50%;
+        width: 100%;
         max-width: 450px;
 
         @include mobile {
@@ -71,52 +71,165 @@
             max-width: 426px;
             min-width: 320px;
             padding: 5px;
-            margin-top: 20px;
+            margin-top: 0px;
         }
 
-        .diary-header-slider {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            border-bottom: 1px solid #fff;
-            margin-bottom: 20px;
-
-            .diary-header-slider__title {
-                color: #E4C084;
-                font-size: 35px;
-                font-family: $text-btn-font;
-            }
-        }
-
-        .container-info-diary {
+        #container-slider {
+            position: relative;
+            display: block;
             width: 100%;
-            height: auto;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
 
-            .diary-time-slider {
-                max-width: 400px;
-                width: 100%;
-                font-family: $paragraph-font;
-                color: #fff;
+            .arrowPrev, .arrowNext{
+                font-size: 20pt;
+                color: #E4C084;
+                cursor: pointer;
+                position: absolute;
+                left: 60px;
+                z-index: 2;
 
-                .diary-time-slider__item {
-                    margin: 23px 10px;
+                @include mobile {
+                    left: 110px;
+                    top: -15%;
+                }
+                @include tablet{
+                    left: 15px;
+                    top: -143px;
+                }
+                @include laptop {
+                    left: 2px;
+                    top: -140px;
+                }
+                @include desktop {
+                    left: 30px;
                 }
             }
 
-            .diary-info-slider {
-                width: 100%;
-                font-family: $paragraph-font;
-                color: #fff;
+            .arrowNext {
+                left: initial;
+                right: 60px;
 
-                .diary-info-slider__item {
-                    margin: 10px;
+                @include mobile {
+                    right: 110px;
+                }
+                @include tablet{
+                    right: 15px;
+                    top: -143px;
+                }
+
+                @include laptop {
+                    right: 2px;
+                    top: -140px;
+                }
+                @include desktop {
+                    right: 30px;
                 }
             }
+
+            .listslider-2 {
+                position: absolute;
+                justify-content: space-between;
+                align-items: center;
+                left: 50%;
+                bottom: 5%;
+                list-style: none;
+                z-index: 2;
+                transform: translateX(-50%);
+
+                .listslider-2 li {
+                    border-radius: 50%;
+                    width: 10px;
+                    height: 10px;
+                    cursor: pointer;
+                    margin: 0 5px;
+                }
+
+                .listslider-2 li a {
+                    background: #CCC;
+                    border-radius: 50%;
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+            }
+
+            #slider-2 {
+                position: relative;
+                display: block;
+                width: 100%;
+    
+                @include mobile {
+                    height: 300px;
+                    top: 0;
+                }
+    
+                @include tablet {
+                    top: -145px;
+                }
+
+                .content-banner {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    -webkit-transition: opacity 1s;
+                    -moz-transition: opacity 1s;
+                    -ms-transition: opacity 1s;
+                    -o-transition: opacity 1s;
+                    transition: opacity 1s;
+                    z-index: -1;
+                    opacity: 0;
+                    list-style: none;
+                
+                    .diary-header-slider {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        border-bottom: 1px solid #fff;
+                        margin-bottom: 20px;
+
+                        @include tablet {
+                            justify-content: center;
+                        }
+            
+                        .diary-header-slider__title {
+                            color: #E4C084;
+                            font-size: 35px;
+                            font-family: $text-btn-font;
+                        }
+                    }
+        
+                    .container-info-diary {
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+            
+                        .diary-time-slider {
+                            max-width: 400px;
+                            width: 100%;
+                            font-family: $paragraph-font;
+                            color: #fff;
+            
+                            .diary-time-slider__item {
+                                margin: 23px 10px;
+                            }
+                        }
+            
+                        .diary-info-slider {
+                            width: 100%;
+                            font-family: $paragraph-font;
+                            color: #fff;
+            
+                            .diary-info-slider__item {
+                                margin: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
         }
     }
 }

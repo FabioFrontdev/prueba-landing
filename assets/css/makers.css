@@ -60,7 +60,7 @@
       justify-content: space-around;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 431px) {
   .makers .makers-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -72,18 +72,18 @@
 .makers .makers-container .maker-item {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 300px;
+  width: 230px;
   margin: 15px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 431px) {
   .makers .makers-container .maker-item {
     width: 200px;
     margin: 0 0 10px 0;
   }
 }
 
-@media screen and (min-width: 427px) {
+@media screen and (min-width: 432px) {
   .makers .makers-container .maker-item {
     width: 150px;
   }
@@ -97,7 +97,7 @@
 
 @media screen and (min-width: 1400px) {
   .makers .makers-container .maker-item {
-    width: 300px;
+    width: 230px;
   }
 }
 /*# sourceMappingURL=makers.css.map */

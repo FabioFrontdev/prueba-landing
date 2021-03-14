@@ -45,7 +45,123 @@
   margin-bottom: 40px;
 }
 
-.sponsors .sponsors-container {
+.sponsors #container-slider {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.sponsors #container-slider .arrowPrev, .sponsors #container-slider .arrowNext {
+  font-size: 20pt;
+  color: #E4C084;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 431px) {
+  .sponsors #container-slider .arrowPrev, .sponsors #container-slider .arrowNext {
+    left: 15px;
+  }
+}
+
+@media screen and (min-width: 432px) {
+  .sponsors #container-slider .arrowPrev, .sponsors #container-slider .arrowNext {
+    left: 15px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .sponsors #container-slider .arrowPrev, .sponsors #container-slider .arrowNext {
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .sponsors #container-slider .arrowPrev, .sponsors #container-slider .arrowNext {
+    left: 130px;
+  }
+}
+
+.sponsors #container-slider .arrowNext {
+  left: initial;
+  right: 60px;
+}
+
+@media screen and (max-width: 431px) {
+  .sponsors #container-slider .arrowNext {
+    right: 15px;
+  }
+}
+
+@media screen and (min-width: 432px) {
+  .sponsors #container-slider .arrowNext {
+    right: 15px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .sponsors #container-slider .arrowNext {
+    right: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .sponsors #container-slider .arrowNext {
+    right: 130px;
+  }
+}
+
+.sponsors #container-slider .listslider {
+  position: absolute;
+  visibility: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 50%;
+  bottom: 5%;
+  list-style: none;
+  z-index: 2;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.sponsors #container-slider #slider-3 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 431px) {
+  .sponsors #container-slider #slider-3 {
+    height: 300px;
+    top: 0;
+  }
+}
+
+@media screen and (min-width: 432px) {
+  .sponsors #container-slider #slider-3 {
+    top: -70px;
+  }
+}
+
+.sponsors #container-slider #slider-3 .content-banner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  z-index: -1;
+  opacity: 0;
+}
+
+.sponsors #container-slider #slider-3 .content-banner .sponsors-container {
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,48 +172,49 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px;
 }
 
-@media screen and (max-width: 414px) {
-  .sponsors .sponsors-container {
+@media screen and (max-width: 431px) {
+  .sponsors #container-slider #slider-3 .content-banner .sponsors-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 100px;
   }
 }
 
-.sponsors .sponsors-container .sponsors-item {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 300px;
-  margin: 15px;
+.sponsors #container-slider #slider-3 .content-banner .sponsors-container .sponsors-item {
+  width: 230px;
+  margin: 0 10px;
 }
 
-@media screen and (max-width: 414px) {
-  .sponsors .sponsors-container .sponsors-item {
+@media screen and (max-width: 431px) {
+  .sponsors #container-slider #slider-3 .content-banner .sponsors-container .sponsors-item {
     width: 200px;
     margin: 0 0 10px 0;
   }
 }
 
-@media screen and (min-width: 427px) {
-  .sponsors .sponsors-container .sponsors-item {
+@media screen and (min-width: 432px) {
+  .sponsors #container-slider #slider-3 .content-banner .sponsors-container .sponsors-item {
     width: 150px;
   }
 }
 
 @media screen and (min-width: 1023px) {
-  .sponsors .sponsors-container .sponsors-item {
+  .sponsors #container-slider #slider-3 .content-banner .sponsors-container .sponsors-item {
     width: 200px;
   }
 }
 
 @media screen and (min-width: 1400px) {
-  .sponsors .sponsors-container .sponsors-item {
-    width: 300px;
+  .sponsors #container-slider #slider-3 .content-banner .sponsors-container .sponsors-item {
+    width: 230px;
   }
 }
 /*# sourceMappingURL=sponsors.css.map */

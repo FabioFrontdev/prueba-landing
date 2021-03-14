@@ -44,7 +44,7 @@
   height: auto;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 431px) {
   .description .description-title {
     width: 100%;
   }
@@ -67,7 +67,7 @@
   margin-top: 25px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 431px) {
   .description .container-description {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -88,14 +88,14 @@
   width: 50%;
   max-width: 400px;
   height: auto;
-  background-image: url(../../../images/backgrouds/bckg-2.png);
+  background-image: url(../../images/backgrouds/bckg-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
   padding: 30px 30px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 431px) {
   .description .container-description .description-left {
     width: 100%;
     max-width: 426px;
@@ -110,7 +110,7 @@
   color: white;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 431px) {
   .description .container-description .description-left .description-left__subtitle {
     font-size: 60px;
   }
@@ -121,7 +121,7 @@
   max-width: 350px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 431px) {
   .description .container-description .description-right {
     width: 100%;
     max-width: 426px;
@@ -138,7 +138,7 @@
   margin-bottom: 15px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 431px) {
   .description .container-description .description-right .description-right__paragraph {
     text-align: center;
   }

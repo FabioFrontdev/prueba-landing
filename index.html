@@ -12,21 +12,42 @@
 <body>
     <header class="header">
         <div class="header-content__logo">
-            <img src="images/logo.png" alt="Logo de Futurology 2020" class="header-content-logo__item">
+            <img src="./assets/images/logo.png" alt="Logo de Futurology 2020" class="header-content-logo__item">
         </div>
     </header>
 
-    <section class="hero">
-        <div class="content-banner" style="width: 100%;">
-            <img src="images/banner.jpg" alt="Vive el futuro, del 25 al 27de noviembre de 2020" class="content-banner__item">
+
+    <section class="hero">	
+        <div id="container-slider">
+            <a href="javascript: fntExecuteSlide1('prev');" class="arrowPrev"><i class="fas fa-chevron-left"></i></a>
+            <a href="javascript: fntExecuteSlide1('next');" class="arrowNext"><i class="fas fa-chevron-right"></i></a>
+
+            <ul class="listslider">
+                <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                <li><a itlist="itList_1" href="#"></a></li>
+                <li><a itlist="itList_2" href="#"></a></li>
+            </ul>
+
+            <ul id="slider">
+                <li class="content-banner" style="z-index:0; opacity: 1;">
+                    <img src="./assets/images/banner-1.jpg" alt="Vive el futuro, del 25 al 27de noviembre de 2020" class="content-banner__item">
+                </li>
+                <li class="content-banner">
+                    <img src="./assets/images/banner-2.jpg" alt="Vive el futuro, del 25 al 27de noviembre de 2020" class="content-banner__item">
+                </li>
+
+                <li class="content-banner">
+                    <img src="./assets/images/banner-3.jpg" alt="Vive el futuro, del 25 al 27de noviembre de 2020" class="content-banner__item">
+                </li>
+            </ul>
         </div>
         <div class="btn-content">
             <a href="#" class="btn">Regístrate aquí</a>
         </div>
-    </section>
+     </section>
     
     <section class="description">
-        <img class="description-title" src="./images/titulo-01.svg" alt="Futurology 2020">
+        <img class="description-title" src="./assets/images/titulo-01.svg" alt="Futurology 2020">
         <div class="container-description">
             <div class="description-left">
                 <h2 class="description-left__subtitle">
@@ -51,30 +72,30 @@
     </section>
 
     <sectition class="speakers">
-        <img class="description-title" src="./images/titulo-02.svg" alt="Speakers o Conferencistas">
+        <img class="description-title" src="./assets/images/titulo-02.svg" alt="Speakers o Conferencistas">
         <div class="speakers-content">
-            <img src="images/pic-01.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-02.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-03.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-04.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-01.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-02.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-03.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-04.jpg" alt="" class="speakers-content__item">
         </div>
         <div class="speakers-content">
-            <img src="images/pic-05.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-06.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-07.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-08.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-05.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-06.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-07.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-08.jpg" alt="" class="speakers-content__item">
         </div>
         <div class="speakers-content">
-            <img src="images/pic-09.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-10.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-11.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-12.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-09.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-10.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-11.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-12.jpg" alt="" class="speakers-content__item">
         </div>
         <div class="speakers-content">
-            <img src="images/pic-13.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-14.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-15.jpg" alt="" class="speakers-content__item">
-            <img src="images/pic-16.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-13.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-14.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-15.jpg" alt="" class="speakers-content__item">
+            <img src="./assets/images/pic-16.jpg" alt="" class="speakers-content__item">
         </div>
         <div class="btn-content">
             <a href="#" class="btn">Regístrate aquí</a>
@@ -89,28 +110,104 @@
         </div>
 
         <div class="diary-right-content-slider">
-            <div class="diary-header-slider">
-                <h2 class="diary-header-slider__title">Hora</h2>
-                <h2 class="diary-header-slider__title">Día 1: Miercoles 25</h2>
-            </div>
+            
+            <div id="container-slider">
+                <a href="javascript: fntExecuteSlide2('prev');" class="arrowPrev"><i class="fas fa-chevron-left"></i></a>
+                <a href="javascript: fntExecuteSlide2('next');" class="arrowNext"><i class="fas fa-chevron-right"></i></a>
 
-            <div class="container-info-diary">
-                <div class="diary-time-slider">
-                    <p class="diary-time-slider__item">8:00am - 9:00am</p>
-                    <p class="diary-time-slider__item">9:00am - 10:00am</p>
-                    <p class="diary-time-slider__item">10:00am - 11:00am</p>
-                    <p class="diary-time-slider__item">11:00am - 12:00am</p>
-                    <p class="diary-time-slider__item">2:00am - 3:00am</p>
-                </div>
-                <div class="diary-info-slider">
-                    <p class="diary-info-slider__item">La agilidad como arte para la transformación digital</p>
-                    <p class="diary-info-slider__item">Innovación para cabezas cuadradas</p>
-                    <p class="diary-info-slider__item">Del Coeficiente Intelectual (IQ) al Coeficiente Emocional (EQ) y ahora al Coeficiente de Adaptabilidad (AQ)</p>
-                    <p class="diary-info-slider__item">PANEL</p>
-                    <p class="diary-info-slider__item">Marketing de experiencias: Porque sin Conexión no hay Emoción</p>
-                </div>
+                <ul class="listslider-2">
+                    <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                    <li><a itlist="itList_1" href="#"></a></li>
+                    <li><a itlist="itList_2" href="#"></a></li>
+                </ul>
+
+                <ul id="slider-2">
+                    <li class="content-banner" style="z-index:0; opacity: 1;">
+                        
+                        <div class="diary-right-content-slider">
+                            <div class="diary-header-slider">
+                                <h2 class="diary-header-slider__title">Hora</h2>
+                                <h2 class="diary-header-slider__title">Día 1: Miercoles 25</h2>
+                            </div>
+                
+                            <div class="container-info-diary">
+                                <div class="diary-time-slider">
+                                    <p class="diary-time-slider__item">8:00am - 9:00am</p>
+                                    <p class="diary-time-slider__item">9:00am - 10:00am</p>
+                                    <p class="diary-time-slider__item">10:00am - 11:00am</p>
+                                    <p class="diary-time-slider__item">11:00am - 12:00am</p>
+                                    <p class="diary-time-slider__item">2:00am - 3:00am</p>
+                                </div>
+                                <div class="diary-info-slider">
+                                    <p class="diary-info-slider__item">La agilidad como arte para la transformación digital</p>
+                                    <p class="diary-info-slider__item">Innovación para cabezas cuadradas</p>
+                                    <p class="diary-info-slider__item">Del Coeficiente Intelectual (IQ) al Coeficiente Emocional (EQ) y ahora al Coeficiente de Adaptabilidad (AQ)</p>
+                                    <p class="diary-info-slider__item">PANEL</p>
+                                    <p class="diary-info-slider__item">Marketing de experiencias: Porque sin Conexión no hay Emoción</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="content-banner">
+                        
+                        <div class="diary-right-content-slider">
+                            <div class="diary-header-slider">
+                                <h2 class="diary-header-slider__title">Hora</h2>
+                                <h2 class="diary-header-slider__title">Día 2: Jueves 26</h2>
+                            </div>
+                
+                            <div class="container-info-diary">
+                                <div class="diary-time-slider">
+                                    <p class="diary-time-slider__item">8:00am - 9:00am</p>
+                                    <p class="diary-time-slider__item">9:00am - 10:00am</p>
+                                    <p class="diary-time-slider__item">10:00am - 11:00am</p>
+                                    <p class="diary-time-slider__item">11:00am - 12:00am</p>
+                                    <p class="diary-time-slider__item">2:00am - 3:00am</p>
+                                </div>
+                                <div class="diary-info-slider">
+                                    <p class="diary-info-slider__item">¡No soy “el jefe”, yo soy un líder!</p>
+                                    <p class="diary-info-slider__item">AgilMente ¿Ser ágil o hacer agilidad?</p>
+                                    <p class="diary-info-slider__item">Aprendiendo a Ser Más Felices en el Siglo XX</p>
+                                    <p class="diary-info-slider__item">¿Por qué aprender OKR para liderar el futuro?</p>
+                                    <p class="diary-info-slider__item">Marca Personal & LinkedIn</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="content-banner">
+                        
+                        <div class="diary-right-content-slider">
+                            <div class="diary-header-slider">
+                                <h2 class="diary-header-slider__title">Hora</h2>
+                                <h2 class="diary-header-slider__title">Día 3: Viernes 27</h2>
+                            </div>
+                
+                            <div class="container-info-diary">
+                                <div class="diary-time-slider">
+                                    <p class="diary-time-slider__item">8:00am - 9:00am</p>
+                                    <p class="diary-time-slider__item">9:00am - 10:00am</p>
+                                    <p class="diary-time-slider__item">10:00am - 11:00am</p>
+                                    <p class="diary-time-slider__item">11:00am - 12:00am</p>
+                                    <p class="diary-time-slider__item">2:00am - 3:00am</p>
+                                </div>
+                                <div class="diary-info-slider">
+                                    <p class="diary-info-slider__item">El fenómeno “CO” en el trabajo</p>
+                                    <p class="diary-info-slider__item">Presente y Futuro de las relaciones laborales en economías colaborativas - Uber-Rappi</p>
+                                    <p class="diary-info-slider__item">Nuevas formas de Crear</p>
+                                    <p class="diary-info-slider__item">Reflexiones de un mundo detenido: de regreso al Ser</p>
+                                    <p class="diary-info-slider__item">Tecnología y Humanidad</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
             </div>
         </div>
+        
     </section>
 
     <section class="counterDown">
@@ -149,21 +246,55 @@
     <section class="makers">
         <h2 class="makers-title">Organiza</h2>
         <div class="makers-container">
-            <img src="./images/makers/mkr-01.png" alt="" class="maker-item">
-            <img src="./images/makers/mkr-02.png" alt="" class="maker-item">
-            <img src="./images/makers/mkr-03.png" alt="" class="maker-item">
-            <img src="./images/makers/mkr-04.png" alt="" class="maker-item">
+            <img src="./assets/images/makers/mkr-01.png" alt="" class="maker-item">
+            <img src="./assets/images/makers/mkr-02.png" alt="" class="maker-item">
+            <img src="./assets/images/makers/mkr-03.png" alt="" class="maker-item">
+            <img src="./assets/images/makers/mkr-04.png" alt="" class="maker-item">
         </div>
     </section>
 
     <section class="sponsors">
         <h2 class="sponsors-title">Sponsors</h2>
-        <div class="sponsors-container">
-            <img src="/images/sponsors/sp-01.png" alt="" class="sponsors-item">
-            <img src="/images/sponsors/sp-02.png" alt="" class="sponsors-item">
-            <img src="/images/sponsors/sp-03.png" alt="" class="sponsors-item">
-            <img src="/images/sponsors/sp-04.png" alt="" class="sponsors-item">
+
+        <div id="container-slider">
+            <a href="javascript: fntExecuteSlide3('prev');" class="arrowPrev"><i class="fas fa-chevron-left"></i></a>
+            <a href="javascript: fntExecuteSlide3('next');" class="arrowNext"><i class="fas fa-chevron-right"></i></a>
+
+            <ul class="listslider-3">
+                <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                <li><a itlist="itList_1" href="#"></a></li>
+                <li><a itlist="itList_2" href="#"></a></li>
+            </ul>
+
+            <ul id="slider-3">
+                <li class="content-banner" style="z-index:0; opacity: 1;">
+                    <div class="sponsors-container">
+                        <img src="./assets/images/sponsors/sp-01.png" alt="" class="sponsors-item">
+                        <img src="./assets/images/sponsors/sp-02.png" alt="" class="sponsors-item">
+                        <img src="./assets/images/sponsors/sp-03.png" alt="" class="sponsors-item">
+                        <img src="./assets/images/sponsors/sp-04.png" alt="" class="sponsors-item">
+                    </div>
+                </li>
+                <li class="content-banner">
+                    <div class="sponsors-container">
+                        <img src="./assets/images/sponsors/sp-05.png" alt="" class="sponsors-item">
+                        <img src="./assets/images/sponsors/sp-06.png" alt="" class="sponsors-item">
+                        <img src="./assets/images/sponsors/sp-07.png" alt="" class="sponsors-item">
+                        <img src="./assets/images/sponsors/sp-08.png" alt="" class="sponsors-item">
+                    </div>
+                </li>
+
+                <li class="content-banner">
+                    <div class="sponsors-container">
+                        <img src="./assets/images/sponsors/sp-09.png" alt="" class="sponsors-item">
+                        <img src="./assets/images/sponsors/sp-10.png" alt="" class="sponsors-item">
+                        <img src="./assets/images/sponsors/sp-11.png" alt="" class="sponsors-item">
+                        <img src="./assets/images/sponsors/sp-12.png" alt="" class="sponsors-item">
+                    </div>
+                </li>
+            </ul>
         </div>
+
     </section>
 
     <footer class="footer">
@@ -187,6 +318,6 @@
             </a>
         </div>
     </footer>
-
+    <script src="assets/js/main.js"></script>
 </body>
 </html>     

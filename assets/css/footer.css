@@ -74,7 +74,7 @@
   margin: 10px 20px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 431px) {
   .footer .footer-social-container .footer-social-container__item {
     width: 60px;
     height: 60px;

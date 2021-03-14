@@ -4,9 +4,9 @@
 .counterDown {
     width: 100%;
     height: auto;
-    background-image: url(../../../images/backgrouds/bckg-1.png);
+    background-image: url(../../images/backgrouds/bckg-1.png);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
@@ -17,6 +17,7 @@
 
     @include mobile {
         flex-direction: column;
+        margin-top: 110px;
     }
 
     .container-mes, .container-dias {
